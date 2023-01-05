@@ -140,9 +140,73 @@ section {
   padding-right: 33px;
   padding-bottom: 30px;
 }
-.resume-title {
+.section-title {
   font-weight: 700;
   font-size: 35px;
   text-align: center;
 }
 /* Resume styles */
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume .title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+}
+.resume .description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  margin-top: 20px;
+}
+.resume-btn {
+  margin-top: 50px;
+  text-align: center;
+}
+/* Contact style */
+.contact .section-title {
+  text-align: left;
+  font-weight: 700;
+  font-size: 35px;
+  color: #18181;
+}
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+  left: -53px;
+  top: 3495px;
+}
+.contact input[type="name"],input[type="email"],textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+input{
+  height: 64px;
+}
+
+.textarea{
+  height: 180px;
+  width: 461px;
+}
+a{
+  text-decoration: none;
+}
+.contact .section-title{
+  margin-bottom: 25px;
+}
